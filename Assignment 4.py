@@ -5,9 +5,9 @@ while True:
             for q in range(n):
                 print(" ", end = '')
             print("*")
-        for j in range(n - i - 1):
+        for j in range(n - i - 1):               # It iterates each column in the specified range and print spaces depending on the given range
             print(' ', end='')
-        for j in range(3 * i+2):
+        for j in range(3 * i+2):                 # It iterates through each row and executes the if statement below when the condition holds
             if j == 0 :
                 print('* ', end='')
             elif  j == 2 * i:
