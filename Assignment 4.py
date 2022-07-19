@@ -1,6 +1,6 @@
 while True:
-    n = int(input("Enter number of row: ")) 
-    for i in range(1,n):
+    n = int(input("Enter number of row: "))      # It computes the number of rows to be printed 
+    for i in range(1,n+1):                       # It iterates through each row and executes the if statement below when the condition holds
         if i == 1:
             for q in range(n):
                 print(" ", end = '')
